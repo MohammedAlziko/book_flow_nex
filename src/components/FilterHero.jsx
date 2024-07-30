@@ -37,7 +37,7 @@ export const FilterHero =()=>{
 
 
 return(
-<section className="text-gray-900 dark:bg-gray-900 dark:text-white " >
+<section className="text-gray-900 dark:bg-gray-900 dark:text-white pb-48 " >
 
 <div className="px-4 mx-auto text-center pt-24 lg:pt-32 " >
 
@@ -50,17 +50,16 @@ return(
 
 <div className="flex justify-center">
 <ul className="flex flex-col sm:flex-row rounded-xl sm:rounded-full justify-center align-middle gap-3 text-sm bg-gray-200 p-2 " >
-    <li className="px-4 py-2 cursor-pointer select-none hover:bg-gray-900 text-gray-900 rounded-full hover:text-white " >Best selling Audiobooks</li>
-    <li className="px-4 py-2 cursor-pointer select-none bg-gray-900  rounded-full text-white " >New & Trending Ebooks</li>
-    <li className="px-4 py-2 cursor-pointer select-none hover:bg-gray-900 text-gray-900 rounded-full hover:text-white " >Fan-Favorite Audiobooks</li>
+    <li className="px-4 duration-300  py-2 cursor-pointer select-none hover:bg-gray-900 text-gray-900 rounded-full hover:text-white " >Best selling Audiobooks</li>
+    <li className="px-4 duration-300  py-2 cursor-pointer select-none bg-gray-900  rounded-full text-white " >New & Trending Ebooks</li>
+    <li className="px-4  duration-300 py-2 cursor-pointer select-none hover:bg-gray-900 text-gray-900 rounded-full hover:text-white " >Fan-Favorite Audiobooks</li>
 </ul>
 </div>
 
 
 <AutoSlider images={bestselling} duration={40} />
 <AutoSlider images={trending} duration={50} />
-<AutoSlider images={bestselling} duration={40} />
-<AutoSlider images={trending} duration={50} />
+
 </div>
 
 

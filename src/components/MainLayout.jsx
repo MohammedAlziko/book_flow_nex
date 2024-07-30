@@ -8,7 +8,7 @@ export const Header =() => {
 return(
     <Navbar >
       <NavbarBrand as={Link} href="https://flowbite-react.com">
-        <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">Flowbite React</span>
+        <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">Apple Books</span>
       </NavbarBrand>
       <NavbarToggle />
       <NavbarCollapse>
@@ -45,7 +45,7 @@ return(
 export function Footera() {
   return (
     <Footer className="rounded-none" container>
-      <FooterCopyright href="#" by="Mohammedoz" year={2024} />
+      <FooterCopyright href="#" by="Mohammed" year={2024} />
       <FooterLinkGroup>
         <FooterLink href="#">About</FooterLink>
         <FooterLink href="#">Privacy Policy</FooterLink>
